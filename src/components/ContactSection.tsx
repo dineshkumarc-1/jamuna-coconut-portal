@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const contactItems = [
   { icon: Phone, title: "Phone", detail: "7829776202", sub: "Call us to place your order", href: "tel:7829776202" },
   { icon: MapPin, title: "Shop Address", detail: "3rd Main Rd, Kumaraswamy Layout 2nd Stage,", sub: "ISRO Layout, Bengaluru, Karnataka 560078" },
-  { icon: Clock, title: "Working Hours", detail: "Monday – Sunday: 7:00 AM – 9:00 PM", sub: "Open all days" },
+  { icon: Clock, title: "Working Hours", detail: "Monday – Sunday: 8:30 AM – 10:00 PM", sub: "Open all days" },
 ];
 
 const ContactSection = () => (
