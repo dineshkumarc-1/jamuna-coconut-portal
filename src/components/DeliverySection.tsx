@@ -41,11 +41,16 @@ const DeliverySection = () => (
       </div>
 
       <div className="bg-primary rounded-2xl p-8 md:p-10 text-center max-w-xl mx-auto">
-        <h3 className="font-display text-xl font-bold text-primary-foreground mb-2">📞 To Place an Order, Just Call Us!</h3>
-        <p className="text-primary-foreground/80 mb-6">Tell us your location and quantity — we'll handle the rest.</p>
-        <a href="tel:7829776202" className="inline-flex items-center gap-2 px-7 py-3 rounded-full bg-card text-primary font-bold text-lg hover:bg-card/90 transition-colors">
-          <Phone className="w-5 h-5" /> 📱 7829776202
-        </a>
+        <h3 className="font-display text-xl font-bold text-primary-foreground mb-2">📞 To Place an Order, Call or WhatsApp Us!</h3>
+        <p className="text-primary-foreground/80 mb-6">Send your address & quantity on WhatsApp for quick delivery.</p>
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <a href="tel:7829776202" className="inline-flex items-center gap-2 px-7 py-3 rounded-full bg-card text-primary font-bold text-lg hover:bg-card/90 transition-colors">
+            <Phone className="w-5 h-5" /> Call Now
+          </a>
+          <a href="https://wa.me/917829776202?text=Hi%2C%20I%20want%20to%20order%20tender%20coconuts.%20My%20address%20is%3A%20" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-7 py-3 rounded-full bg-[hsl(142,70%,45%)] text-primary-foreground font-bold text-lg hover:opacity-90 transition-opacity">
+            <MessageCircle className="w-5 h-5" /> WhatsApp Order
+          </a>
+        </div>
       </div>
     </div>
   </section>
