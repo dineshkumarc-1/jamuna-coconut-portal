@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const contactItems = [
   { icon: Phone, title: "Phone", detail: "7829776202", sub: "Call us to place your order", href: "tel:7829776202" },
   { icon: MapPin, title: "Shop Address", detail: "3rd Main Rd, Kumaraswamy Layout 2nd Stage,", sub: "ISRO Layout, Bengaluru, Karnataka 560078" },
-  { icon: Clock, title: "Working Hours", detail: "Monday – Sunday: 7:00 AM – 9:00 PM", sub: "Open all days" },
+  { icon: Clock, title: "Working Hours", detail: "Monday – Sunday: 8:30 AM – 10:00 PM", sub: "Open all days" },
 ];
 
 const ContactSection = () => (
@@ -38,6 +38,22 @@ const ContactSection = () => (
           </motion.div>
         ))}
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className="mt-10 bg-primary rounded-2xl p-8 text-center max-w-2xl mx-auto"
+      >
+        <h3 className="font-display text-xl font-bold text-primary-foreground mb-2">🎉 Catering & Function Orders</h3>
+        <p className="text-primary-foreground/80 mb-4">
+          We take catering and function orders! Just call us to discuss quantity, delivery, pricing, and other details.
+        </p>
+        <a href="tel:7829776202" className="inline-flex items-center gap-2 px-7 py-3 rounded-full bg-card text-primary font-bold text-lg hover:bg-card/90 transition-colors">
+          <Phone className="w-5 h-5" /> 📱 7829776202
+        </a>
+      </motion.div>
     </div>
   </section>
 );
