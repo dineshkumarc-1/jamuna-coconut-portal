@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import coconutTrees from "@/assets/coconut-trees.jpg";
-import heroCoconut from "@/assets/hero-coconut.jpg";
-import coconutWater from "@/assets/coconut-water.jpg";
-import coconutFresh from "@/assets/coconut-fresh.jpg";
+import heroCoconut from "@/assets/hero-coconut-new.jpg";
+import coconutWater from "@/assets/coconut-water-new.jpg";
+import coconutFresh from "@/assets/coconut-fresh-new.jpg";
+import coconutStall from "@/assets/coconut-stall.jpg";
 
 const images = [
-  { src: coconutTrees, alt: "Coconut palm trees at sunset" },
-  { src: heroCoconut, alt: "Fresh tender coconuts on tree" },
-  { src: coconutWater, alt: "Tender coconut water pouring" },
-  { src: coconutFresh, alt: "Fresh coconut half" },
+  { src: heroCoconut, alt: "Young green tender coconuts on palm tree" },
+  { src: coconutStall, alt: "Fresh young tender coconuts at stall" },
+  { src: coconutWater, alt: "Young tender coconut water being poured" },
+  { src: coconutFresh, alt: "Young green tender coconut cut open" },
 ];
 
 const GallerySection = () => (
