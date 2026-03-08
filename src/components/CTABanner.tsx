@@ -1,5 +1,5 @@
 import { Phone } from "lucide-react";
-import coconutFresh from "@/assets/coconut-fresh.jpg";
+import coconutFresh from "@/assets/coconut-fresh-new.jpg";
 
 const CTABanner = () => (
   <section className="py-16">
