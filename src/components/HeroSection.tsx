@@ -32,6 +32,14 @@ const HeroSection = () => (
             <Phone className="w-5 h-5" /> Order Now — 7829776202
           </a>
           <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-[hsl(142,70%,45%)] text-primary-foreground font-semibold text-base hover:opacity-90 transition-opacity"
+          >
+            <MessageCircle className="w-5 h-5" /> WhatsApp Order
+          </a>
+          <a
             href="#delivery"
             className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-card/20 backdrop-blur-sm text-primary-foreground font-semibold text-base border border-primary-foreground/20 hover:bg-card/30 transition-colors"
           >

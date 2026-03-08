@@ -7,6 +7,7 @@ import DeliverySection from "@/components/DeliverySection";
 import GallerySection from "@/components/GallerySection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 const Index = () => (
   <>
@@ -19,6 +20,7 @@ const Index = () => (
     <GallerySection />
     <ContactSection />
     <Footer />
+    <WhatsAppFloat />
   </>
 );
 
