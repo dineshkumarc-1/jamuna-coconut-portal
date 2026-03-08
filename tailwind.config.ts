@@ -9,11 +9,27 @@ export default {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1200px",
       },
     },
     extend: {
+      fontFamily: {
+        display: ["Playfair Display", "serif"],
+        body: ["DM Sans", "sans-serif"],
+      },
       colors: {
+        tropical: {
+          50: "hsl(var(--tropical-50))",
+          100: "hsl(var(--tropical-100))",
+          200: "hsl(var(--tropical-200))",
+          500: "hsl(var(--tropical-500))",
+          800: "hsl(var(--tropical-800))",
+          900: "hsl(var(--tropical-900))",
+        },
+        warm: {
+          DEFAULT: "hsl(var(--warm))",
+          light: "hsl(var(--warm-light))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
