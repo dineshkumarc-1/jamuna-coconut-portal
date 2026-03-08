@@ -1,6 +1,7 @@
-import { Phone, Truck } from "lucide-react";
+import { Phone, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import heroImg from "@/assets/hero-coconut.jpg";
+import { whatsappUrl } from "./WhatsAppFloat";
 
 const HeroSection = () => (
   <section className="relative min-h-[90vh] flex items-end overflow-hidden">
@@ -29,6 +30,14 @@ const HeroSection = () => (
             className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold text-base hover:opacity-90 transition-opacity"
           >
             <Phone className="w-5 h-5" /> Order Now — 7829776202
+          </a>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-[hsl(142,70%,45%)] text-primary-foreground font-semibold text-base hover:opacity-90 transition-opacity"
+          >
+            <MessageCircle className="w-5 h-5" /> WhatsApp Order
           </a>
           <a
             href="#delivery"
