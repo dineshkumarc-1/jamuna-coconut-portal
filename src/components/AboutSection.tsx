@@ -19,7 +19,7 @@ const AboutSection = () => (
           transition={{ duration: 0.6 }}
           className="relative"
         >
-          <img src={coconutWater} alt="Fresh tender coconut water being poured" className="rounded-2xl shadow-[var(--shadow-elevated)] w-full object-cover aspect-[4/5]" />
+          <img src={tenderCoconut} alt="Fresh tender coconut with straw" className="rounded-2xl shadow-[var(--shadow-elevated)] w-full object-cover aspect-[4/5]" />
           <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-primary text-primary-foreground rounded-xl px-5 py-3 font-display text-lg font-bold shadow-lg">
             100% Natural & Fresh
           </div>
