@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import coconutWater from "@/assets/coconut-water.jpg";
+import tenderCoconut from "@/assets/tender-coconut.jpg";
 
 const stats = [
   { value: "500+", label: "Happy Customers" },
