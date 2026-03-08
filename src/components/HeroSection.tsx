@@ -1,6 +1,7 @@
-import { Phone, Truck } from "lucide-react";
+import { Phone, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import heroImg from "@/assets/hero-coconut.jpg";
+import { whatsappUrl } from "./WhatsAppFloat";
 
 const HeroSection = () => (
   <section className="relative min-h-[90vh] flex items-end overflow-hidden">
