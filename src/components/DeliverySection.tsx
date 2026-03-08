@@ -1,4 +1,4 @@
-import { Truck, MapPin, Clock, Phone } from "lucide-react";
+import { Truck, MapPin, Clock, Phone, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 const deliveryFeatures = [
